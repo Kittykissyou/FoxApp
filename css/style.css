@@ -383,6 +383,7 @@ h6 {
 .second_section__oval {
   position: absolute;
   height: 582.65px;
+  width: 1440px;
   top: 105px;
   transform: rotate(-180deg);
 }
@@ -467,4 +468,217 @@ h6 {
   color: #ffffff;
 }
 .second_section__footer-text {
+  margin-top: 20px;
+  width: 445px;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-family: 'Roboto';
+  font-style: normal;
+}
+.second_section__footer-text span {
+  font-weight: 600;
+  font-size: 37px;
+  line-height: 43px;
+}
+.second_section__footer-text p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.second_section__downloads {
+  width: 115px;
+  height: 64px;
+}
+
+.second_section__restaurants {
+  width: 100px;
+  height: 64px;
+}
+.second_section__sale {
+  width: 132px;
+  height: 64px;
+}
+/*----------------_----*/
+/*-------Третья секция------*/
+.third_section {
+  min-height: 357px;
+  align-items: center;
+}
+
+.third_section__container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+}
+.third_section__description-text {
+  height: 232px;
+  width: 445px;
+  margin-top: 84px;
+  margin-left: 165px;
+}
+.third_section__header-text {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: black;
+}
+.third_section__header-text span {
+  color: #ff9c01;
+}
+.third_section__planet-text {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: #302f3c;
+  transform: rotate(-0.55deg);
+}
+.third_section__center-text {
+  margin-top: 30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #4e5c66;
+}
+.third_section__russian-map-frame {
+  position: absolute;
+  height: 271px;
+  width: 633px;
+  top: 32px;
+  left: 640px;
+}
+.third_section__dishes1 {
+  position: absolute;
+  top: 86px;
+  left: 57px;
+}
+.third_section__dishes2 {
+  position: absolute;
+  top: 126px;
+  left: 146px;
+}
+.third_section__glasses {
+  position: absolute;
+  top: 151px;
+  left: 270px;
+}
+.third_section__dishes3 {
+  position: absolute;
+  top: 90px;
+  left: 389px;
+}
+/*----------------_----*/
+/*-------Четвертая секция------*/
+.four_section {
+  min-height: 709px;
+  align-items: center;
+}
+
+.four_section__container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+}
+.four_section__oval {
+  position: absolute;
+  width: 1440px;
+  height: 582.65px;
+}
+.four_section__girl {
+  position: absolute;
+  width: 540px;
+  height: 709px;
+  left: 165px;
+  top: 0;
+}
+.four_section__ball1 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 1045px;
+  top: 0;
+}
+.four_section__ball2 {
+  position: absolute;
+  width: 71px;
+  height: 71px;
+  left: 833px;
+  top: 495px;
+}
+.four_section__ball3 {
+  position: absolute;
+  width: 193px;
+  height: 187px;
+  left: 1101px;
+  top: 461px;
+}
+.four_section p {
+  position: absolute;
+  left: 735px;
+  top: 165px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/*----------------_----*/
+/*-------Четвертая секция------*/
+.five_section {
+  min-height: 728px;
+  align-items: center;
+}
+
+.five_section__container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+}
+.five_section__container p {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 186px;
+  margin-left: 166px;
+}
+.five_section__container span {
+  color: #ff9c01;
+}
+.five_section__cookie-text {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: #302f3c;
+  transform: rotate(-0.55deg);
+}
+.five_section__girl {
+  position: absolute;
+  width: 523px;
+  height: 728px;
+  left: 752px;
+  top: 0;
 }
