@@ -1,0 +1,406 @@
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+section,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto';
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+/*--------------------*/
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+._container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header_container {
+  min-height: 902px;
+  align-items: center;
+}
+.header_container__oval {
+  position: absolute;
+}
+/*-----Контакты и кнопки-------*/
+.contacts_menu {
+  position: absolute;
+  height: 47px;
+  width: 815px;
+  top: 15px;
+  margin-left: 460px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact {
+  height: 27px;
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.contact__phone {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.contact__phone p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 170%;
+}
+
+.contact__email {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+.contact__email p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 170%;
+}
+
+.menu {
+  height: 47px;
+  width: 377px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu__buttons-login {
+  height: 47px;
+  width: 136px;
+  background-color: white;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu__inner-buttons {
+  display: flex;
+  align-items: center;
+}
+.menu__inner-buttons p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 170%;
+  margin-left: 10px;
+  color: #ffab00;
+}
+.menu__buttons-partners {
+  height: 47px;
+  width: 231px;
+  background-color: white;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*--------------------*/
+/*-----Шары и айфон-------*/
+.balls_iphone {
+  width: 100%;
+  position: absolute;
+}
+.balls_iphone__white-small-ball {
+  position: absolute;
+  left: 165px;
+  top: 18px;
+  height: 42px;
+  width: 42px;
+  background-color: white;
+  border-radius: 50%;
+}
+.balls_iphone__white-big-ball {
+  position: absolute;
+  left: 249px;
+  top: 185px;
+  height: 179px;
+  width: 179px;
+  background-color: white;
+  border-radius: 50%;
+}
+.balls_iphone__ball1 {
+  position: absolute;
+  left: 438px;
+  top: 62px;
+}
+.balls_iphone__ball2 {
+  position: absolute;
+  left: 810px;
+  top: 73px;
+}
+.balls_iphone__ball3 {
+  position: absolute;
+  left: 1051px;
+  top: 155px;
+}
+.balls_iphone__ball4 {
+  position: absolute;
+  left: 1210px;
+  top: 338px;
+}
+.balls_iphone__ball5 {
+  position: absolute;
+  left: 414px;
+  top: 431px;
+}
+.balls_iphone__ball6 {
+  position: absolute;
+  left: 92px;
+  top: 454px;
+}
+.balls_iphone__ball7 {
+  position: absolute;
+  left: 69px;
+  top: 301px;
+}
+.balls_iphone__ball8 {
+  position: absolute;
+  left: 240px;
+  top: 523px;
+}
+.balls_iphone__ball9 {
+  position: absolute;
+  left: 355px;
+  top: 738px;
+}
+.balls_iphone__ball10-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 674px;
+  top: 726px;
+}
+.balls_iphone__ball10 {
+  position: absolute;
+}
+.balls_iphone__arrow {
+  position: absolute;
+}
+.balls_iphone__ball11 {
+  position: absolute;
+  left: 842px;
+  top: 548px;
+  z-index: 3;
+}
+.balls_iphone__ball12 {
+  position: absolute;
+  left: 1173px;
+  top: 596px;
+}
+.balls_iphone__ball13 {
+  position: absolute;
+  left: 1079px;
+  top: 478px;
+}
+.balls_iphone__iphone-container {
+  height: 585px;
+  width: 288px;
+  position: absolute;
+  left: 576px;
+  top: 136px;
+  display: flex;
+  filter: drop-shadow(0px 4px 60px rgba(255, 255, 255, 0.5))
+    drop-shadow(0px 0px 140px #ffffff);
+}
+
+.balls_iphone__iphone-frame {
+  position: absolute;
+  z-index: 2;
+}
+
+.balls_iphone__iphone-display {
+  position: absolute;
+  left: 15px;
+  align-self: center;
+}
+
+/*----------------_----*/
+/*----Первая секция----*/
+.first_section {
+  min-height: 438px;
+  align-items: center;
+}
+.first_section__container {
+  width: 100%;
+  position: absolute;
+}
+
+.first_section__iphone {
+  position: absolute;
+  left: 172px;
+  top: -82px;
+}
+.first_section__download-text {
+  margin-top: 49px;
+  margin-left: 640px;
+  height: 389px;
+  width: 628px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+
+  color: #768c9b;
+}
+
+.first_section__headerText {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 30px #ffffff, 0px 4px 60px #ffffff, 0px 4px 90px #ffffff;
+}
+
+.first_section__where-text {
+  color: #ffab00;
+}
+.first_section__load-text {
+  color: rgba(14, 40, 60, 1);
+}
+.first_section__rocket-text {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: #302f3c;
+  transform: rotate(-0.55deg);
+}
+.first_section__platforms {
+  height: 71px;
+  width: 453px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+/*----------------_----*/
+/*----Вторая секция----*/
+.second_section {
+  min-height: 703px;
+  align-items: center;
+}
+.second_section__container {
+  width: 100%;
+  position: absolute;
+}
+.second_section__oval {
+  position: absolute;
+  top: 105px;
+  transform: rotate(-180deg);
+}
+.second_section__ball1 {
+  position: absolute;
+  top: 102px;
+  left: 165px;
+}
+.second_section__ball2 {
+  position: absolute;
+  top: 89px;
+  left: 712px;
+}
+.second_section__ball3 {
+  position: absolute;
+  top: 495px;
+  left: 1180px;
+}
+.second_section__iphone {
+  position: absolute;
+  top: 72px;
+  left: 830px;
+}
