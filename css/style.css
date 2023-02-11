@@ -376,11 +376,13 @@ h6 {
   align-items: center;
 }
 .second_section__container {
+  height: 100%;
   width: 100%;
   position: absolute;
 }
 .second_section__oval {
   position: absolute;
+  height: 582.65px;
   top: 105px;
   transform: rotate(-180deg);
 }
@@ -388,19 +390,81 @@ h6 {
   position: absolute;
   top: 102px;
   left: 165px;
+  width: 80px;
+  height: 80px;
 }
 .second_section__ball2 {
   position: absolute;
-  top: 89px;
+  top: 100px;
   left: 712px;
+  width: 106px;
+  height: 106px;
 }
 .second_section__ball3 {
   position: absolute;
-  top: 495px;
+  top: 620px;
   left: 1180px;
+  height: 92px;
+  width: 92px;
 }
 .second_section__iphone {
   position: absolute;
+  width: 371px;
+  height: 637.38px;
   top: 72px;
   left: 830px;
+  clip-path: polygon(
+    0px 0px,
+    371px 0px,
+    375px 599px,
+    287px 606px,
+    227px 611px,
+    184px 612px,
+    147px 614px,
+    93px 616px,
+    23px 616px,
+    10px 616px,
+    0px 616px
+  );
+}
+.second_section__description-text {
+  position: absolute;
+  width: 540px;
+  height: 264px;
+  margin-top: 282px;
+  margin-left: 165px;
+}
+.second_section__header-text {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: white;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+.second_section__your-text {
+  color: #ffab00;
+}
+.second_section__iphone-text {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: #302f3c;
+  transform: rotate(-0.55deg);
+}
+.second_section__center-text {
+  margin-top: 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.second_section__footer-text {
 }
