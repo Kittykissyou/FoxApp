@@ -735,7 +735,7 @@ h6 {
   width: 479px;
   height: 551px;
   left: 191px;
-  top: 50px;
+  top: 15px;
 }
 .six_section__iphone {
   position: absolute;
@@ -743,5 +743,59 @@ h6 {
   width: 276px;
   height: 364px;
   left: 97px;
-  top: 71px;
+  top: 106px;
+}
+.six_section__eat-box1 {
+  position: absolute;
+  z-index: 3;
+  width: 200px;
+  height: 199px;
+}
+.six_section__eat-box2 {
+  position: absolute;
+  z-index: 3;
+  width: 207px;
+  height: 155px;
+  top: 396px;
+  left: 9px;
+}
+.six_section__eat-box3 {
+  position: absolute;
+  z-index: 3;
+  width: 149px;
+  height: 195px;
+  top: 141px;
+  left: 331px;
+}
+.six_section__ball1 {
+  position: absolute;
+  z-index: 3;
+  width: 71px;
+  height: 71px;
+  left: 545px;
+  top: 18px;
+}
+.six_section__ball2 {
+  position: absolute;
+  z-index: 3;
+  width: 106px;
+  height: 106px;
+  left: 1169px;
+  top: 35px;
+}
+.six_section__ball3 {
+  position: absolute;
+  z-index: 3;
+  width: 137px;
+  height: 137px;
+  left: 1138px;
+  top: 486px;
+}
+.six_section__grass {
+  position: absolute;
+  z-index: 3;
+  width: 653px;
+  height: 323px;
+  top: 461px;
+  left: 787px;
 }
