@@ -648,9 +648,8 @@ h6 {
   height: 100%;
   width: 100%;
   position: absolute;
-  display: flex;
 }
-.five_section__container p {
+.five_section__FAQ {
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 700;
@@ -681,6 +680,70 @@ h6 {
   height: 728px;
   left: 752px;
   top: 0;
+}
+.dropdown {
+  margin-top: 20px;
+  margin-left: 166px;
+  width: 539px;
+}
+.dropdown_string {
+  width: 539px;
+  height: 37px;
+  padding: 5px 10px 5px 10px;
+  background: #ffffff;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.dropdown_string p {
+  width: 445px;
+  height: 27px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 170%;
+  color: #4e5c66;
+}
+.dropdown__treangle {
+  width: 24px;
+  height: 24px;
+  padding: 9.5px;
+}
+.dropdown__treangle img {
+  transition: transform 0.3s ease;
+  margin: 0 auto;
+}
+.dropdown__treangle-rotate img {
+  transform: rotate(180deg);
+}
+.dropdown__hidden-context {
+  display: none;
+}
+.dropdown__hidden-context p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 175%;
+  color: #4e5c66;
+}
+.dropdown__visible-context {
+  display: block;
+  width: 530px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 0px 0px 0px 10px;
+  animation: 0.3s slidedown;
+}
+@keyframes slidedown {
+  from {
+    margin-top: -5px;
+  }
+  to {
+    margin-top: 10px;
+  }
 }
 /*----------------_----*/
 /*-------Шестая секция------*/
