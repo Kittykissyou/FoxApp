@@ -1116,18 +1116,28 @@ body {
   line-height: 150%;
   color: #565656;
 }
+.footer_menu768 {
+  display: none;
+}
 .footercontacts_menu {
   height: 67px;
+  width: 1440px;
   background: #ffab00;
   margin-top: 120px;
   display: flex;
   align-items: center;
+}
+.footer__white-ball {
+  display: none;
 }
 .footercontacts_menu__soup {
   width: 37px;
   height: 42px;
   margin-left: 165px;
   top: 4937px;
+}
+.footer_button {
+  display: none;
 }
 
 .footercontacts_menu__phone {
