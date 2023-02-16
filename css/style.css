@@ -80,10 +80,13 @@ h6 {
   font-weight: 400;
 }
 /*--------------------*/
-
+body {
+  overflow-x: hidden;
+}
 .wrapper {
+  display: flex;
+  flex-direction: column;
   min-height: 100%;
-  overflow: hidden;
 }
 ._container {
   max-width: 1440px;
@@ -96,7 +99,10 @@ h6 {
 }
 .header_container__oval {
   position: absolute;
+  width: 1440px;
+  height: 493px;
 }
+
 /*-----Контакты и кнопки-------*/
 .contacts_menu {
   position: absolute;
@@ -117,6 +123,9 @@ h6 {
   color: white;
 }
 
+.contact768 {
+  display: none;
+}
 .contact__phone {
   width: 160px;
   display: flex;
@@ -152,6 +161,9 @@ h6 {
   display: flex;
   justify-content: space-between;
 }
+.partner_button768 {
+  display: none;
+}
 .menu__buttons-login {
   height: 47px;
   width: 136px;
@@ -183,6 +195,20 @@ h6 {
   justify-content: center;
   align-items: center;
 }
+.social_networks {
+  position: absolute;
+  width: 51px;
+  height: 100px;
+  margin-left: 1389px;
+  margin-top: 281px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.social_networks img {
+  width: 24px;
+  height: 24px;
+}
 /*--------------------*/
 /*-----Шары и айфон-------*/
 .balls_iphone {
@@ -209,78 +235,107 @@ h6 {
 }
 .balls_iphone__ball1 {
   position: absolute;
+  width: 108px;
+  height: 108px;
   left: 438px;
   top: 62px;
 }
 .balls_iphone__ball2 {
   position: absolute;
+  width: 137px;
+  height: 137px;
   left: 810px;
   top: 73px;
 }
 .balls_iphone__ball3 {
   position: absolute;
+  width: 152px;
+  height: 151px;
   left: 1051px;
   top: 155px;
 }
 .balls_iphone__ball4 {
   position: absolute;
+  width: 139px;
+  height: 137px;
   left: 1210px;
   top: 338px;
 }
 .balls_iphone__ball5 {
   position: absolute;
+  width: 93px;
+  height: 92px;
   left: 414px;
   top: 431px;
 }
 .balls_iphone__ball6 {
   position: absolute;
+  width: 80px;
+  height: 78px;
   left: 92px;
   top: 454px;
 }
 .balls_iphone__ball7 {
   position: absolute;
+  width: 106px;
+  height: 106px;
   left: 69px;
   top: 301px;
 }
 .balls_iphone__ball8 {
   position: absolute;
+  width: 125px;
+  height: 125px;
   left: 240px;
   top: 523px;
 }
 .balls_iphone__ball9 {
   position: absolute;
+  width: 164px;
+  height: 164px;
   left: 355px;
   top: 738px;
 }
-.balls_iphone__ball10-container {
+
+.balls_iphone__ball10 {
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 93px;
+  height: 95px;
   left: 674px;
   top: 726px;
 }
-.balls_iphone__ball10 {
-  position: absolute;
+.balls_iphone__ball768 {
+  display: none;
 }
 .balls_iphone__arrow {
   position: absolute;
+  left: 712px;
+  top: 766px;
 }
 .balls_iphone__ball11 {
   position: absolute;
   left: 842px;
   top: 548px;
   z-index: 3;
+  width: 178px;
+  height: 178px;
 }
 .balls_iphone__ball12 {
   position: absolute;
+  width: 140px;
+  height: 141px;
   left: 1173px;
   top: 596px;
 }
 .balls_iphone__ball13 {
   position: absolute;
+  width: 71px;
+  height: 71px;
   left: 1079px;
   top: 478px;
+}
+.balls_iphone__iphone {
+  display: none;
 }
 .balls_iphone__iphone-container {
   height: 585px;
@@ -412,21 +467,10 @@ h6 {
   position: absolute;
   width: 371px;
   height: 637.38px;
-  top: 72px;
+  top: 53.5px;
   left: 830px;
-  clip-path: polygon(
-    0px 0px,
-    371px 0px,
-    375px 599px,
-    287px 606px,
-    227px 611px,
-    184px 612px,
-    147px 614px,
-    93px 616px,
-    23px 616px,
-    10px 616px,
-    0px 616px
-  );
+
+  clip-path: polygon(0px 0px, 371px 0px, 374px 599px, 162px 623px, -3px 633px);
 }
 .second_section__description-text {
   position: absolute;
@@ -434,6 +478,9 @@ h6 {
   height: 264px;
   margin-top: 282px;
   margin-left: 165px;
+}
+.second_section__header-text768 {
+  display: none;
 }
 .second_section__header-text {
   font-family: 'Ubuntu';
@@ -512,6 +559,9 @@ h6 {
   width: 100%;
   position: absolute;
   display: flex;
+}
+.third_section__header-text768 {
+  display: none;
 }
 .third_section__description-text {
   height: 232px;
@@ -603,6 +653,19 @@ h6 {
   left: 165px;
   top: 0;
 }
+.four_section__girl-gradient {
+  position: absolute;
+  width: 540px;
+  height: 709px;
+  left: 165px;
+  top: 0;
+  z-index: 3;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0) 82.72%,
+    rgba(255, 255, 255, 0.86) 94.69%,
+    #ffffff 98.56%
+  );
+}
 .four_section__ball1 {
   position: absolute;
   width: 80px;
@@ -624,10 +687,14 @@ h6 {
   left: 1101px;
   top: 461px;
 }
-.four_section p {
+.four_section__description-text {
   position: absolute;
+  width: 445px;
+  height: 38px;
   left: 735px;
   top: 165px;
+}
+.four_section__header-text {
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 700;
@@ -636,6 +703,12 @@ h6 {
   letter-spacing: -0.03em;
   text-transform: uppercase;
   color: #ffffff;
+}
+.four_section__header-text span {
+  display: none;
+}
+.four_section__center-text {
+  display: none;
 }
 /*----------------_----*/
 /*-------Пятая секция------*/
@@ -761,11 +834,17 @@ h6 {
 .six_section__background-bubles {
   margin-top: 50px;
 }
+.six_section__oval768 {
+  display: none;
+}
 .six_section__oval {
   position: absolute;
   z-index: 1;
   width: 1440px;
   height: 538.65px;
+}
+.six_section__bubles768 {
+  display: none;
 }
 .six_section__bubles {
   position: absolute;

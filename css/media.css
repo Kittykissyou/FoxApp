@@ -1,0 +1,541 @@
+@media (max-width: 768px) {
+  ._container {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  /*----Хедер----*/
+  .header_container {
+    min-height: 380px;
+    align-items: center;
+  }
+  .header_container__oval {
+    position: absolute;
+    width: 768px;
+    height: 380px;
+  }
+  .contacts_menu {
+    position: absolute;
+    height: 47px;
+    width: 346px;
+    top: 14px;
+    margin-left: 308px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact {
+    display: none;
+  }
+  .contact768 {
+    width: 100px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu {
+    display: none;
+  }
+  .partner_button768 {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 25px;
+    width: 231px;
+    height: 47px;
+    background: #ffffff;
+    border-radius: 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 170%;
+    color: #ffab00;
+  }
+  .balls_iphone__white-small-ball {
+    width: 48px;
+    height: 48px;
+    left: 113px;
+    top: 14px;
+  }
+  .balls_iphone__white-big-ball {
+    width: 75px;
+    height: 73px;
+    left: 189px;
+    top: 105px;
+  }
+  .balls_iphone__ball1 {
+    width: 58px;
+    height: 60px;
+    left: 271px;
+    top: 61px;
+  }
+  .balls_iphone__ball2 {
+    width: 57px;
+    height: 57px;
+    left: 430px;
+    top: 75px;
+  }
+  .balls_iphone__ball3 {
+    width: 62px;
+    height: 61px;
+    left: 529px;
+    top: 110px;
+  }
+  .balls_iphone__ball4 {
+    width: 57px;
+    height: 58px;
+    left: 594px;
+    top: 183px;
+  }
+  .balls_iphone__ball5 {
+    width: 38px;
+    height: 38px;
+    left: 216px;
+    top: 224px;
+  }
+  .balls_iphone__ball6 {
+    width: 32px;
+    height: 32px;
+    left: 124px;
+    top: 222px;
+  }
+  .balls_iphone__ball7 {
+    width: 44px;
+    height: 44px;
+    left: 112px;
+    top: 134px;
+  }
+  .balls_iphone__ball8 {
+    width: 60px;
+    height: 59px;
+    left: 166px;
+    top: 283px;
+  }
+  .balls_iphone__ball9 {
+    z-index: 2;
+    width: 67px;
+    height: 67px;
+    left: 248px;
+    top: 342px;
+  }
+
+  .balls_iphone__ball10 {
+    display: none;
+  }
+  .balls_iphone__arrow {
+    display: none;
+  }
+  .balls_iphone__ball768 {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 441px;
+    top: 363px;
+  }
+  .balls_iphone__ball11 {
+    width: 72px;
+    height: 74px;
+    left: 472px;
+    top: 272px;
+  }
+  .balls_iphone__ball12 {
+    width: 58px;
+    height: 59px;
+    left: 579px;
+    top: 290px;
+  }
+  .balls_iphone__ball13 {
+    width: 28px;
+    height: 30px;
+    left: 541px;
+    top: 242px;
+  }
+  .balls_iphone__iphone {
+    display: block;
+    position: absolute;
+    width: 254px;
+    height: 302px;
+    left: 235px;
+    top: 70px;
+  }
+  .balls_iphone__iphone-container {
+    display: none;
+  }
+  .social_networks {
+    margin-left: 717px;
+    margin-top: 162px;
+  }
+  /*-------------------*/
+  /*----Первая секция----*/
+  .first_section {
+    min-height: 309px;
+  }
+  .first_section__iphone {
+    height: 283px;
+    width: 160px;
+    top: 26px;
+    left: 113px;
+  }
+  .first_section__download-text {
+    margin-top: 26px;
+    margin-left: 303px;
+    width: 350px;
+    height: 244px;
+
+    font-size: 14px;
+  }
+  .first_section__headerText {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .first_section__rocket-text {
+    font-size: 16px;
+  }
+  .first_section__platforms {
+    width: 255px;
+    height: 39px;
+    margin-top: 9px;
+    display: flex;
+    justify-content: space-between;
+  }
+  /*----------------_----*/
+  /*----Вторая секция----*/
+  .second_section {
+    min-height: 332px;
+  }
+
+  .second_section__oval {
+    height: 332px;
+    width: 768px;
+    top: 0;
+  }
+  .second_section__ball1 {
+    display: none;
+  }
+  .second_section__ball2 {
+    display: none;
+  }
+  .second_section__ball3 {
+    display: none;
+  }
+  .second_section__iphone {
+    width: 160px;
+    height: 338px;
+    top: 0;
+    left: 494px;
+    clip-path: polygon(0px 0px, 160px 0px, 162px 309px, 79px 322px, 1px 330px);
+  }
+  .second_section__description-text {
+    width: 341px;
+    height: 210px;
+    margin-top: 80px;
+    margin-left: 113px;
+  }
+  .second_section__header-text768 {
+    display: block;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: white;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+  }
+  .second_section__header-text {
+    display: none;
+  }
+
+  .second_section__iphone-text {
+    font-size: 16px;
+  }
+  .second_section__center-text {
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #ffffff;
+  }
+  .second_section__footer-text {
+    margin-top: 15px;
+    width: 255px;
+    height: 35px;
+  }
+  .second_section__footer-text span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+  }
+  .second_section__footer-text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .second_section__downloads {
+    width: 80px;
+    height: 35px;
+  }
+
+  .second_section__restaurants {
+    width: 78px;
+    height: 35px;
+  }
+  .second_section__sale {
+    width: 57px;
+    height: 35px;
+  }
+  /*----------------_----*/
+  /*-------Третья секция------*/
+  .third_section {
+    min-height: 403px;
+  }
+
+  .third_section__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .third_section__description-text {
+    width: 540px;
+    height: 139px;
+    margin-top: 39px;
+    margin-left: 113px;
+  }
+  .third_section__header-text768 {
+    display: block;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+  }
+  .third_section__header-text {
+    display: none;
+  }
+  .third_section__header-text768 span {
+    color: #ff9c01;
+  }
+  .third_section__planet-text {
+    font-size: 16px;
+  }
+  .third_section__center-text {
+    margin-top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+  }
+  .third_section__russian-map-frame {
+    width: 540px;
+    height: 231.18px;
+    top: 178px;
+    left: 113px;
+  }
+  .third_section__russian-map {
+    width: 540px;
+    height: 231.18px;
+  }
+  .third_section__dishes1 {
+    position: absolute;
+    top: 86px;
+    left: 57px;
+  }
+  .third_section__dishes2 {
+    position: absolute;
+    top: 126px;
+    left: 146px;
+  }
+  .third_section__glasses {
+    position: absolute;
+    top: 151px;
+    left: 270px;
+  }
+  .third_section__dishes3 {
+    position: absolute;
+    top: 90px;
+    left: 389px;
+  }
+  /*----------------_----*/
+  /*-------Четвертая секция------*/
+  .four_section {
+    min-height: 323px;
+  }
+
+  .four_section__oval {
+    position: absolute;
+    top: 5px;
+    width: 768px;
+    height: 300px;
+  }
+  .four_section__girl {
+    width: 160px;
+    height: 210px;
+    left: 113px;
+    top: 33px;
+  }
+  .four_section__girl-gradient {
+    width: 160px;
+    height: 210px;
+    left: 113px;
+    top: 33px;
+    z-index: 3;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 187, 48, 0) 82.72%,
+      rgba(255, 190, 58, 0.88) 94.69%,
+      #ffbf3d 98.56%
+    );
+  }
+  .four_section__ball1 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    width: 32px;
+    left: 588px;
+  }
+  .four_section__ball2 {
+    display: none;
+  }
+  .four_section__ball3 {
+    display: none;
+  }
+  .four_section__description-text {
+    width: 351px;
+    height: 181px;
+    left: 303px;
+    top: 47px;
+  }
+  .four_section__header-text {
+    font-size: 16px;
+  }
+  .four_section__header-text span {
+    display: inline-block;
+  }
+  .four_section__center-text {
+    display: block;
+    margin-top: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #ffffff;
+  }
+  /*----------------_----*/
+  /*-------Пятая секция------*/
+  .five_section {
+    min-height: 336px;
+  }
+  .five_section__container {
+    height: 100%;
+    width: 768px;
+    position: absolute;
+  }
+  .five_section__FAQ-text-separator {
+    display: none;
+  }
+
+  .five_section__FAQ {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-left: 113px;
+  }
+  .five_section__FAQ span {
+    color: #ff9c01;
+  }
+  .five_section__cookie-text {
+    font-size: 16px;
+  }
+  .five_section__girl {
+    display: none;
+  }
+  .dropdown {
+    margin-top: 0px;
+    margin-left: 113px;
+  }
+  /*----------------_----*/
+  /*-------Шестая секция------*/
+  .six_section {
+    min-height: 462px;
+  }
+
+  .six_section__background-bubles {
+    margin-top: 0px;
+  }
+  .six_section__oval768 {
+    display: block;
+    position: absolute;
+    z-index: 1;
+  }
+  .six_section__oval {
+    display: none;
+  }
+  .six_section__bubles768 {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    clip-path: polygon(
+      0px 20px,
+      169px 6px,
+      387px 0px,
+      590px 5px,
+      768px 19px,
+      768px 409px,
+      585px 394px,
+      384px 388px,
+      170px 395px,
+      0px 408px
+    );
+  }
+  .six_section__bubles {
+    display: none;
+  }
+  .six_section__iphone-eatboxes {
+    display: none;
+  }
+
+  .six_section__ball1 {
+    display: none;
+  }
+  .six_section__ball2 {
+    display: none;
+  }
+  .six_section__ball3 {
+    display: none;
+  }
+  .six_section__grass {
+    display: none;
+  }
+  .six_section__description-text {
+    top: 60px;
+    left: 113px;
+    width: 542px;
+    height: 285.29px;
+  }
+  .six_section__header-text {
+    width: 120.29px;
+    height: 30.29px;
+    align-items: center;
+  }
+  .six_section__header-text p {
+    font-size: 16px;
+  }
+
+  .six_section__review {
+    font-size: 14px;
+  }
+}

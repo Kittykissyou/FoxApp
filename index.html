@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:regular,600,700,900&display=swap&subset=cyrillic-ext"
       rel="stylesheet"
@@ -26,24 +27,52 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="header">
+      <div class="header">
         <div class="header_container _container">
-          <img src="./img/header/oval.svg" class="header_container__oval" />
+          <img class="header_container__oval" src="./img/header/oval.png" />
+
           <div class="contacts_menu">
+            <div class="contact768">
+              <img
+                class="phone"
+                src="./img/header/contacts_menu/contact/phone.png"
+              />
+              <img
+                class="email"
+                src="./img/header/contacts_menu/contact/vector.png"
+              />
+              <img
+                class="meeteng-room"
+                src="./img/header/contacts_menu/contact/meeteng_roomWhite.png"
+              />
+            </div>
             <div class="contact">
               <div class="contact__phone">
-                <img src="./img/header/contacts_menu/contact/phone.svg" />
+                <img
+                  class="phone"
+                  src="./img/header/contacts_menu/contact/phone.svg"
+                />
                 <p>+7 977 000-00-00</p>
               </div>
               <div class="contact__email">
-                <img src="./img/header/contacts_menu/contact/Vector.svg" />
+                <img
+                  class="email"
+                  src="./img/header/contacts_menu/contact/Vector.svg"
+                />
                 <p>support@mail.ru</p>
               </div>
             </div>
+            <button class="partner_button768">
+              <img src="./img/header/contacts_menu/menu/group_add.svg" /> Стать
+              партнером
+            </button>
             <div class="menu">
               <div class="menu__buttons-login">
                 <div class="menu__inner-buttons">
-                  <img src="./img/header/contacts_menu/menu/meeting_room.svg" />
+                  <img
+                    class="meeteng-room"
+                    src="./img/header/contacts_menu/menu/meeting_room.svg"
+                  />
                   <p>Войти</p>
                 </div>
               </div>
@@ -55,52 +84,89 @@
               </div>
             </div>
           </div>
+          <div class="social_networks">
+            <img src="/FoxApp/img/header/insta.svg" />
+            <img src="/FoxApp/img/header/vk.svg" />
+            <img src="/FoxApp/img/header/facebook.svg" />
+          </div>
           <div class="balls_iphone">
             <div class="balls_iphone__white-small-ball"></div>
             <div class="balls_iphone__white-big-ball"></div>
-            <div class="balls_iphone__ball1">
-              <img src="./img/header/balls_iphone/ball1.svg" />
-            </div>
-            <div class="balls_iphone__ball2">
-              <img src="./img/header/balls_iphone/ball2.svg" />
-            </div>
-            <div class="balls_iphone__ball3">
-              <img src="./img/header/balls_iphone/ball3.svg" />
-            </div>
-            <div class="balls_iphone__ball4">
-              <img src="./img/header/balls_iphone/ball4.svg" />
-            </div>
-            <div class="balls_iphone__ball5">
-              <img src="./img/header/balls_iphone/ball5.svg" />
-            </div>
-            <div class="balls_iphone__ball6">
-              <img src="./img/header/balls_iphone/ball6.svg" />
-            </div>
-            <div class="balls_iphone__ball7">
-              <img src="./img/header/balls_iphone/ball7.svg" />
-            </div>
-            <div class="balls_iphone__ball8">
-              <img src="./img/header/balls_iphone/ball8.png" />
-            </div>
-            <div class="balls_iphone__ball9">
-              <img src="./img/header/balls_iphone/ball9.png" />
-            </div>
-            <div class="balls_iphone__ball10-container">
-              <img src="./img/header/balls_iphone/ball10.png" />
-              <img
-                class="balls_iphone__arrow"
-                src="./img/header/balls_iphone/arrow.png"
-              />
-            </div>
-            <div class="balls_iphone__ball11">
-              <img src="./img/header/balls_iphone/ball11.png" />
-            </div>
-            <div class="balls_iphone__ball12">
-              <img src="./img/header/balls_iphone/ball12.png" />
-            </div>
-            <div class="balls_iphone__ball13">
-              <img src="./img/header/balls_iphone/ball13.png" />
-            </div>
+            <img
+              class="balls_iphone__ball1"
+              src="./img/header/balls_iphone/ball1.png"
+            />
+            <img
+              class="balls_iphone__ball2"
+              src="./img/header/balls_iphone/ball2.png"
+            />
+
+            <img
+              class="balls_iphone__ball3"
+              src="./img/header/balls_iphone/ball3.png"
+            />
+
+            <img
+              class="balls_iphone__ball4"
+              src="./img/header/balls_iphone/ball4.png"
+            />
+
+            <img
+              class="balls_iphone__ball5"
+              src="./img/header/balls_iphone/ball5.png"
+            />
+
+            <img
+              class="balls_iphone__ball6"
+              src="./img/header/balls_iphone/ball6.png"
+            />
+
+            <img
+              class="balls_iphone__ball7"
+              src="./img/header/balls_iphone/ball7.svg"
+            />
+
+            <img
+              class="balls_iphone__ball8"
+              src="./img/header/balls_iphone/ball8.png"
+            />
+
+            <img
+              class="balls_iphone__ball9"
+              src="./img/header/balls_iphone/ball9.png"
+            />
+
+            <img
+              class="balls_iphone__ball768"
+              src="./img/header/balls_iphone/ball768.png"
+            />
+            <img
+              class="balls_iphone__ball10"
+              src="./img/header/balls_iphone/ball10.png"
+            />
+            <img
+              class="balls_iphone__arrow"
+              src="./img/header/balls_iphone/arrow.png"
+            />
+
+            <img
+              class="balls_iphone__ball11"
+              src="./img/header/balls_iphone/ball11.png"
+            />
+
+            <img
+              class="balls_iphone__ball12"
+              src="./img/header/balls_iphone/ball12.png"
+            />
+
+            <img
+              class="balls_iphone__ball13"
+              src="./img/header/balls_iphone/ball13.png"
+            />
+            <img
+              class="balls_iphone__iphone"
+              src="/FoxApp/img/header/balls_iphone/iphone.png"
+            />
 
             <div class="balls_iphone__iphone-container">
               <img
@@ -114,8 +180,8 @@
             </div>
           </div>
         </div>
-      </header>
-      <section class="section">
+      </div>
+      <div class="section">
         <div class="first_section _container">
           <div class="first_section__container">
             <img
@@ -167,11 +233,19 @@
               src="./img/second_section/iphone.png"
             />
             <div class="second_section__description-text">
+              <div class="second_section__header-text768">
+                <p>
+                  <span class="second_section__your-text">ваши </span>
+                  любимые рестораны онлайн
+                  <span class="second_section__iphone-text">📱</span>
+                </p>
+              </div>
+
               <div class="second_section__header-text">
                 <p>
                   <span class="second_section__your-text">ваши </span>любимые
                   <span class="second_section__iphone-text">📱</span>
-                  <br />рестораны онлайн
+                  <br class="second_section__br" />рестораны онлайн
                 </p>
               </div>
               <p class="second_section__center-text">
@@ -197,6 +271,12 @@
         <div class="third_section _container">
           <div class="third_section__container">
             <div class="third_section__description-text">
+              <div class="third_section__header-text768">
+                <p>
+                  <span>единая платформа</span> для всей россии
+                  <span class="third_section__planet-text">🌏</span>
+                </p>
+              </div>
               <div class="third_section__header-text">
                 <p>
                   <span>единая платформа</span><br />
@@ -213,7 +293,10 @@
               </p>
             </div>
             <div class="third_section__russian-map-frame">
-              <img src="/FoxApp/img/third_section/russian-map.png" />
+              <img
+                class="third_section__russian-map"
+                src="/FoxApp/img/third_section/russian-map.png"
+              />
               <img
                 class="third_section__dishes1"
                 src="/FoxApp/img/third_section/dishes1.png"
@@ -239,6 +322,7 @@
               class="four_section__oval"
               src="/FoxApp/img/four_section/Subtract.png"
             />
+            <div class="four_section__girl-gradient"></div>
             <img
               class="four_section__girl"
               src="/FoxApp/img/four_section/girl.png"
@@ -255,13 +339,23 @@
               class="four_section__ball3"
               src="/FoxApp/img/four_section/ball3.png"
             />
-            <p>у нас есть доставка</p>
+            <div class="four_section__description-text">
+              <p class="four_section__header-text">
+                у нас есть доставка<span>🚁</span>
+              </p>
+              <p class="four_section__center-text">
+                Скачивайте приложение и создавайте свое виртуальное кафе с
+                электронным меню, доставкой и возможностью предзаказа Скачивайте
+                приложение и создавайте свое виртуальное кафе с электронным
+                меню, доставкой и возможностью предзаказа
+              </p>
+            </div>
           </div>
         </div>
         <div class="five_section _container">
           <div class="five_section__container">
             <p class="five_section__FAQ">
-              часто задаваемые<br />
+              часто задаваемые<br class="five_section__FAQ-text-separator" />
               <span>вопросы</span>
               <span class="five_section__cookie-text"> 🍪 </span>
             </p>
@@ -314,8 +408,17 @@
           <div class="six_section__container">
             <div class="six_section__background-bubles">
               <img
+                class="six_section__oval768"
+                src="/FoxApp/img/six_section/Subtract.png"
+              />
+              <img
                 class="six_section__oval"
                 src="/FoxApp/img/six_section/intersect.png"
+              />
+
+              <img
+                class="six_section__bubles768"
+                src="/FoxApp/img/six_section/bubles768.png"
               />
               <img
                 class="six_section__bubles"
@@ -393,42 +496,50 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
       <footer class="footer">
         <div class="footer_container _container">
           <div class="footer_container__contact-us">
             <div class="footer_container__header-text">
-              <p class="footer_container__title"> связаться с нами <span>💛</span></p>
-              <p class="footer_container__subtitle">Вы можете связаться с нами  по любому вопросу</p>
+              <p class="footer_container__title">
+                связаться с нами <span>💛</span>
+              </p>
+              <p class="footer_container__subtitle">
+                Вы можете связаться с нами по любому вопросу
+              </p>
             </div>
             <div class="footer_container__form">
-              <form >
-              <input placeholder="Ваше Имя">
-              <input placeholder="Телефон">
-              <input placeholder="Email">
-              <button>Отправить</button>
-            </form>
-            <p class="footer_container__footer-text">Нажимая на кнопку “Отправить” вы соглашаетесь с  политикой конфиденциальности</p>
+              <form>
+                <input placeholder="Ваше Имя" />
+                <input placeholder="Телефон" />
+                <input placeholder="Email" />
+                <button>Отправить</button>
+              </form>
+              <p class="footer_container__footer-text">
+                Нажимая на кнопку “Отправить” вы соглашаетесь с политикой
+                конфиденциальности
+              </p>
             </div>
           </div>
           <div class="footercontacts_menu">
-            <img class="footercontacts_menu__soup"src="/FoxApp/img/footer/soup.png">
-            
-              <div class="footercontacts_menu__phone">
-                <img src="./img/header/contacts_menu/contact/phone.svg" />
-                <p>+7 977 000-00-00</p>
-              </div>
-              <div class="footercontacts_menu__email">
-                <img src="./img/header/contacts_menu/contact/Vector.svg" />
-                <p>support@mail.ru</p>
-              </div>
-             <button class="footercontacts_menu__button"> Войти </button>
-           
-            
+            <img
+              class="footercontacts_menu__soup"
+              src="/FoxApp/img/footer/soup.png"
+            />
+            <div class="footercontacts_menu__phone">
+              <img src="./img/header/contacts_menu/contact/phone.svg" />
+              <p>+7 977 000-00-00</p>
+            </div>
+            <div class="footercontacts_menu__email">
+              <img src="./img/header/contacts_menu/contact/Vector.svg" />
+              <p>support@mail.ru</p>
+            </div>
+            <button class="footercontacts_menu__button">Войти</button>
           </div>
         </div>
-      </div>
+
+        <script src="js/script.js"></script>
+      </footer>
     </div>
-    <script src="js/script.js"></script>
   </body>
 </html>
