@@ -1,0 +1,235 @@
+@media (max-width: 320px) {
+  ._container {
+    max-width: 320px;
+  }
+  /*----Хедер----*/
+  .header_container {
+    min-height: 325px;
+    width: 100%;
+    align-items: center;
+    background: linear-gradient(
+      180deg,
+      #ffab00 -182.82%,
+      #ffcd68 -100.25%,
+      #ffab00 54.78%,
+      #ffab00 95.73%
+    );
+  }
+  .header_container__oval {
+    display: none;
+  }
+  .contacts_menu {
+    margin-left: 0px;
+    width: 195px;
+    height: 24px;
+    top: 13px;
+    left: 66px;
+  }
+
+  .contact768 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .contact768 img {
+    margin-left: 33px;
+    height: 24px;
+    width: 24px;
+  }
+  .group_add {
+    display: block;
+  }
+  .partner_button768 {
+    display: none;
+  }
+
+  .balls_iphone__white-small-ball {
+    width: 24px;
+    height: 24px;
+    left: 34px;
+    top: 13px;
+  }
+  .balls_iphone__white-big-ball {
+    display: none;
+  }
+  .balls_iphone__ball1 {
+    display: none;
+  }
+  .balls_iphone__ball2 {
+    display: none;
+  }
+  .balls_iphone__ball3 {
+    display: none;
+  }
+  .balls_iphone__ball4 {
+    display: none;
+  }
+  .balls_iphone__ball5 {
+    display: none;
+  }
+  .balls_iphone__ball6 {
+    display: none;
+  }
+  .balls_iphone__ball7 {
+    display: none;
+  }
+  .balls_iphone__ball8 {
+    display: none;
+  }
+  .balls_iphone__ball9 {
+    display: none;
+  }
+  .balls_iphone__ball768 {
+    display: none;
+  }
+  .balls_iphone__ball11 {
+    display: none;
+  }
+  .balls_iphone__ball12 {
+    display: none;
+  }
+  .balls_iphone__ball13 {
+    display: none;
+  }
+  .balls_iphone__iphone {
+    width: 254px;
+    height: 302px;
+    left: 33px;
+    top: 12px;
+  }
+  .ball_iphone__iphone-gradient {
+    width: 254px;
+    height: 302px;
+    left: 33px;
+    top: 12px;
+  }
+  .social_networks {
+    margin-left: 264px;
+    margin-top: 101px;
+  }
+  /*-------------------*/
+  /*----Первая секция----*/
+  .first_section {
+    min-height: 487px;
+  }
+  .first_section__container {
+    padding: 0px 33px;
+  }
+  .first_section__download-text {
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 255px;
+    height: 276px;
+    font-size: 13px;
+  }
+  .first_section__headerText {
+    font-size: 13px;
+  }
+
+  .first_section__rocket-text {
+    font-size: 13px;
+  }
+  .first_section__platforms {
+    width: 255px;
+    height: 39px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .first_section__iphone {
+    display: none;
+  }
+  /*----------------_----*/
+  /*----Вторая секция----*/
+  .second_section {
+    min-height: 446px;
+  }
+  .second_section__container {
+    height: 446px;
+    background: radial-gradient(
+      95.07% 139.28% at 50% -43.54%,
+      #513e63 0%,
+      #282837 29.64%,
+      #4d4793 85.3%,
+      #9260a9 100%
+    );
+  }
+
+  .second_section__oval {
+    display: none;
+  }
+
+  .second_section__iphone {
+    width: 160px;
+    height: 338px;
+    top: -180px;
+    left: 80px;
+    clip-path: none;
+  }
+  .second_section__iphone-gradient {
+    display: block;
+    position: absolute;
+    width: 158px;
+    height: 338px;
+    top: -179px;
+    left: 80px;
+    background: linear-gradient(
+      180deg,
+      rgba(61, 57, 108, 0) 70.31%,
+      #3d396c 100%
+    );
+  }
+  .second_section__description-text {
+    width: 254px;
+    height: 222px;
+    margin-top: 204px;
+    margin-left: 33px;
+  }
+  .second_section__header-text768 {
+    font-size: 13px;
+    line-height: 0%;
+  }
+  .second_section__your-text-separator {
+    display: block;
+  }
+
+  .second_section__iphone-text {
+    font-size: 13px;
+  }
+  .second_section__center-text {
+    margin-top: 0px;
+
+    font-size: 13px;
+  }
+  .second_section__footer-text {
+    margin-top: 10px;
+    width: 238px;
+    height: 30px;
+  }
+  .second_section__footer-text span {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .second_section__footer-text p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .second_section__downloads {
+    width: 80px;
+    height: 35px;
+  }
+
+  .second_section__restaurants {
+    width: 78px;
+    height: 35px;
+  }
+  .second_section__sale {
+    width: 57px;
+    height: 35px;
+  }
+  /*----------------_----*/
+}

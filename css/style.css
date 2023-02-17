@@ -114,7 +114,12 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
+.contact320 {
+  display: none;
+}
+.contact768 {
+  display: none;
+}
 .contact {
   height: 27px;
   width: 340px;
@@ -123,9 +128,6 @@ body {
   color: white;
 }
 
-.contact768 {
-  display: none;
-}
 .contact__phone {
   width: 160px;
   display: flex;
@@ -337,6 +339,9 @@ body {
 .balls_iphone__iphone {
   display: none;
 }
+.ball_iphone__iphone-gradient {
+  display: none;
+}
 .balls_iphone__iphone-container {
   height: 585px;
   width: 288px;
@@ -471,6 +476,9 @@ body {
   left: 830px;
 
   clip-path: polygon(0px 0px, 371px 0px, 374px 599px, 162px 623px, -3px 633px);
+}
+.second_section__iphone-gradient {
+  display: none;
 }
 .second_section__description-text {
   position: absolute;

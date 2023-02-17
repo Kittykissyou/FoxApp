@@ -23,14 +23,18 @@
     justify-content: space-between;
     align-items: center;
   }
-  .contact {
-    display: none;
-  }
+
   .contact768 {
     width: 100px;
     height: 24px;
     display: flex;
     justify-content: space-between;
+  }
+  .group_add {
+    display: none;
+  }
+  .contact {
+    display: none;
   }
 
   .menu {
@@ -160,6 +164,19 @@
     left: 235px;
     top: 70px;
   }
+  .ball_iphone__iphone-gradient {
+    display: block;
+    position: absolute;
+    width: 254px;
+    height: 302px;
+    left: 235px;
+    top: 70px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 171, 0, 0) 85.42%,
+      #ffab00 100%
+    );
+  }
   .balls_iphone__iphone-container {
     display: none;
   }
@@ -246,6 +263,9 @@
     color: white;
     letter-spacing: -0.03em;
     text-transform: uppercase;
+  }
+  .second_section__your-text-separator {
+    display: none;
   }
   .second_section__header-text {
     display: none;
