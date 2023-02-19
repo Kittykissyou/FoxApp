@@ -442,6 +442,7 @@
   .four_section__header-text {
     font-size: 16px;
   }
+
   .four_section__header-text span {
     display: inline-block;
   }
@@ -458,12 +459,11 @@
   /*----------------_----*/
   /*-------Пятая секция------*/
   .five_section {
-    min-height: 336px;
+    min-height: 270px;
   }
   .five_section__container {
-    height: 100%;
     width: 768px;
-    position: absolute;
+    position: static;
   }
   .five_section__FAQ-text-separator {
     display: none;
@@ -490,6 +490,7 @@
   /*----------------_----*/
   /*-------Шестая секция------*/
   .six_section {
+    margin-top: 25px;
     min-height: 462px;
   }
 
@@ -634,11 +635,12 @@
     height: 43px;
     background-color: white;
     border-radius: 50%;
-    margin-left: 113px;
+    margin-right: 171px;
   }
   .footer_menu768 {
     display: block;
     position: absolute;
+
     height: 67px;
     width: 768px;
     background: #ffab00;
@@ -648,10 +650,20 @@
   }
   .footer__contact {
     display: flex;
-    width: 100px;
+    width: 540px;
+    height: 47px;
+    justify-content: start;
+    align-items: center;
+    margin-left: 113px;
+  }
+  .footer__contact img {
+    width: 24px;
     height: 24px;
-    justify-content: space-between;
-    margin-left: 185px;
+    margin-left: 14px;
+  }
+
+  .group_add {
+    display: none;
   }
   .footer_button {
     display: block;

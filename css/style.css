@@ -712,6 +712,10 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
+.four_section__header-text-separator {
+  display: none;
+}
+
 .four_section__header-text span {
   display: none;
 }
@@ -850,6 +854,9 @@ body {
   z-index: 1;
   width: 1440px;
   height: 538.65px;
+}
+.six_section__bubles320 {
+  display: none;
 }
 .six_section__bubles768 {
   display: none;
@@ -1073,6 +1080,9 @@ body {
   line-height: 150%;
 
   color: #414141;
+}
+.footer_container__text-separator {
+  display: none;
 }
 .footer_container__form {
   margin-top: 20px;

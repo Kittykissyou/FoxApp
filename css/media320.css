@@ -232,4 +232,349 @@
     height: 35px;
   }
   /*----------------_----*/
+  /*-------Третья секция------*/
+  .third_section {
+    min-height: 344px;
+  }
+
+  .third_section__description-text {
+    width: 257px;
+    height: 222px;
+    margin-top: 30px;
+    margin-left: 31px;
+  }
+  .third_section__header-text768 {
+    display: none;
+  }
+  .third_section__header-text {
+    display: block;
+    line-height: 0;
+    font-size: 13px;
+  }
+
+  .third_section__planet-text {
+    font-size: 13px;
+  }
+  .third_section__center-text {
+    margin-top: 0px;
+    font-size: 13px;
+  }
+  .third_section__russian-map-frame {
+    position: absolute;
+    width: 158px;
+    height: 67.64px;
+    top: 259px;
+    left: 31px;
+  }
+  .third_section__russian-map {
+    width: 158px;
+    height: 67.64px;
+  }
+  .third_section__dishes1 {
+    width: 27.21px;
+    height: 16.22px;
+    left: 14.23px;
+    top: 21.47px;
+  }
+  .third_section__dishes2 {
+    width: 27.46px;
+    height: 16.22px;
+    left: 36.44px;
+    top: 34.45px;
+  }
+  .third_section__glasses {
+    width: 32.95px;
+    height: 17.47px;
+    left: 67.39px;
+    top: 37.69px;
+  }
+  .third_section__dishes3 {
+    width: 35.94px;
+    height: 19.72px;
+    left: 97.1px;
+    top: 22.46px;
+  }
+  /*----------------_----*/
+  /*-------Четвертая секция------*/
+  .four_section {
+    min-height: 222px;
+  }
+  .four_section__container {
+    height: 222px;
+    width: 100%;
+    position: absolute;
+    display: block;
+    background: linear-gradient(
+      180deg,
+      #ffab00 -182.82%,
+      #ffcd68 -100.25%,
+      #ffab00 54.78%,
+      #ffab00 95.73%
+    );
+  }
+
+  .four_section__oval {
+    display: none;
+  }
+  .four_section__girl {
+    width: 126px;
+    height: 165px;
+    left: 161px;
+    top: -110px;
+  }
+  .four_section__girl-gradient {
+    width: 126px;
+    height: 165px;
+    left: 161px;
+    top: -109px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 178, 23, 0) 82.72%,
+      rgba(255, 177, 20, 0.84) 94.69%,
+      #ffb112 98.56%
+    );
+  }
+  .four_section__ball1 {
+    display: none;
+  }
+
+  .four_section__description-text {
+    width: 255px;
+    height: 202px;
+    left: 33px;
+    top: 17px;
+  }
+  .four_section__header-text {
+    font-size: 13px;
+  }
+  .four_section__header-text-separator {
+    display: block;
+  }
+  .four_section__header-text span {
+    display: inline-block;
+    font-size: 13px;
+  }
+  .four_section__center-text {
+    display: block;
+    margin-top: 10px;
+
+    font-size: 13px;
+  }
+  /*----------------_----*/
+  /*-------Пятая секция------*/
+  .five_section {
+    min-height: 240px;
+  }
+  .five_section__container {
+    width: 320px;
+    position: static;
+  }
+
+  .five_section__FAQ-text-separator {
+    display: block;
+  }
+
+  .five_section__FAQ {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 33px;
+    line-height: 0%;
+  }
+  .five_section__FAQ span {
+    color: #ff9c01;
+  }
+
+  .dropdown {
+    margin-top: 9px;
+    margin-left: 33px;
+    width: 255px;
+  }
+  .dropdown_string {
+    width: 255px;
+    height: 34px;
+    margin-bottom: 5px;
+  }
+  .dropdown_string p {
+    width: 200px;
+    height: 22px;
+    font-size: 13px;
+  }
+  .dropdown__treangle {
+    width: 24px;
+    height: 24px;
+    padding: 9.5px;
+  }
+  .dropdown__treangle img {
+    transition: transform 0.3s ease;
+    margin: 0 auto;
+  }
+  .dropdown__treangle-rotate img {
+    transform: rotate(180deg);
+  }
+  .dropdown__hidden-context {
+    display: none;
+  }
+  .dropdown__hidden-context p {
+    font-size: 13px;
+  }
+  .dropdown__visible-context {
+    display: block;
+    font-size: 13px;
+    width: 255px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 0px 0px 0px 10px;
+    animation: 0.5s slidedown;
+  }
+  @keyframes slidedown {
+    from {
+      margin-top: -15px;
+    }
+    to {
+      margin-top: 5px;
+    }
+  }
+  /*----------------_----*/
+  /*-------Шестая секция------*/
+  .six_section {
+    margin-top: 15px;
+    min-height: 449px;
+  }
+  .six_section__container {
+    height: 449px;
+    background: radial-gradient(
+      95.07% 139.28% at 50% -43.54%,
+      #513e63 0%,
+      #282837 29.64%,
+      #4d4793 85.3%,
+      #9260a9 100%
+    );
+  }
+  .six_section__background-bubles {
+    margin-top: 0px;
+  }
+  .six_section__oval768 {
+    display: none;
+  }
+
+  .six_section__bubles320 {
+    display: block;
+  }
+  .six_section__bubles768 {
+    display: none;
+  }
+  .six_section__bubles {
+    display: none;
+  }
+
+  .six_section__description-text {
+    top: 30px;
+    left: 34px;
+    width: 255px;
+    height: 381.29px;
+  }
+  .six_section__header-text {
+    width: 110.29px;
+    height: 30.29px;
+    align-items: center;
+  }
+  .six_section__header-text p {
+    font-size: 16px;
+  }
+
+  .six_section__review {
+    font-size: 14px;
+  }
+  /*----------------_----*/
+  /*-------Footer------*/
+  .footer {
+    min-height: 468px;
+    align-items: baseline;
+  }
+  .footer_container {
+    height: 100%;
+    width: 320px;
+  }
+
+  .footer_container__contact-us {
+    position: static;
+    width: 255px;
+    height: 370px;
+    margin-left: 33px;
+    margin-top: 16px;
+    box-shadow: none;
+    padding: 0px 0px;
+  }
+  .footer_container__header-text {
+    margin-left: 0px;
+    height: auto;
+  }
+
+  .footer_container__title {
+    font-size: 13px;
+    line-height: 0;
+    margin-top: 0px;
+  }
+  .footer_container__title span {
+    font-size: 13px;
+  }
+  .footer_container__subtitle {
+    font-size: 13px;
+    margin-top: 0px;
+  }
+  .footer_container__text-separator {
+    display: block;
+  }
+  .footer_container__form {
+    margin-top: 15px;
+
+    height: 276px;
+  }
+  .footer_container__form form {
+    height: 209px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .footer_container__contact-us input {
+    width: 255px;
+    height: 41px;
+    margin-left: 0px;
+  }
+  .footer_container__contact-us button {
+    margin-left: 0px;
+    width: 255px;
+    height: 41px;
+  }
+  .footer_container__footer-text {
+    margin-left: 0px;
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  .footer__white-ball {
+    width: 24px;
+    height: 24px;
+    margin-left: 0px;
+    margin-right: 0;
+  }
+  .footer_menu768 {
+    width: 320px;
+    height: 67px;
+    margin-top: 26px;
+    justify-content: center;
+  }
+  .footer__contact {
+    width: 252px;
+    margin-left: 0px;
+    justify-content: space-between;
+  }
+  .footer__contact img {
+    margin-left: 0;
+  }
+  .group_add {
+    display: block;
+  }
+  .footer_button {
+    display: none;
+  }
 }
