@@ -5,7 +5,7 @@
   /*----Хедер----*/
   .header_container {
     min-height: 325px;
-    width: 100%;
+    width: 320px;
     align-items: center;
     background: linear-gradient(
       180deg,
@@ -147,6 +147,7 @@
     min-height: 446px;
   }
   .second_section__container {
+    width: 320px;
     height: 446px;
     background: radial-gradient(
       95.07% 139.28% at 50% -43.54%,
@@ -301,7 +302,7 @@
   }
   .four_section__container {
     height: 222px;
-    width: 100%;
+    width: 320px;
     position: absolute;
     display: block;
     background: linear-gradient(
@@ -442,6 +443,7 @@
   }
   .six_section__container {
     height: 449px;
+    width: 320px;
     background: radial-gradient(
       95.07% 139.28% at 50% -43.54%,
       #513e63 0%,
